@@ -11,6 +11,7 @@ export default function Home() {
         placeholder="blur"
         width={1078}
         height={522}
+        priority
       />
     </div>
   );
