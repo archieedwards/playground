@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.overlay {
+  transition-property: width, height;
+  transition-timing-function: ease-out;
+  transition-duration: 300ms;
+}
